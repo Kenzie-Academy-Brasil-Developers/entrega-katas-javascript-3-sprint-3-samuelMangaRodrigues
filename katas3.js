@@ -18,7 +18,7 @@ function title(valor){
     body.appendChild(titulo)
 }
 function kata1() {
-    title("Kata 1:")
+    title("Kata de 1 a 25:")
     let kata1=[]
     
     for(let i=1; i<=25;i++){
@@ -32,7 +32,7 @@ function kata2() {
     title("Kata 2:")
     let kata2=[]
     
-    for(let i=25 ; i>=0 ; i--){
+    for(let i=25 ; i>=1 ; i--){
         kata2.push(i)
         
     }
@@ -69,7 +69,10 @@ function kata5() {
     title("Kata 5:")
     let kata5=[]    
     for(let i=25;i>=-25;i--){
-        kata5.push(i)
+        if (i%2!==0) {
+        kata5.push(i)    
+        }
+        
     }        
     return kata5;
 }
@@ -108,7 +111,7 @@ showResults(kata7())
 function kata8() {
     title("Kata 8:")
  let kata8=[]
-    for(let i=3;i<100;i++){
+    for(let i=100;i>=3;i--){
         if (i%3===0||i%7===0) {
             kata8.push(i)
        
@@ -126,7 +129,7 @@ function kata9() {
     let kata9=[]
     
     for(let i=5;i<=100;i++){
-        if (i%5===0) {
+        if (i%5===0&&i%2!==0) {
             kata9.push(i)
         
         
