@@ -8,15 +8,15 @@ Você irá criar uma única página web com um cabeçalho identificado para cada
 
 A maneira mais fácil de começar é copiando o arquivo de exemplo da **Mini-Aula: Inserindo novos elementos em uma Página**. Você pode copiar e colar o código que está incorporado na aula.
 
-Você pode continuar adicionando cada novo kata no final da página.
-
-## Katas 
 
 Antes de começar a desenvolver suas funções de resolução dos Katas, crie a função **"showResults"** seguindo os seguintes passos:
 
 1. Essa função deve receber um valor como parâmetro.  
 2. Essa função deve mostrar no DOM o valor recebido.  
-3. Essa função deve ser chamada dentro de todas as outras funções.  
+3. Essa função deve ser chamada dentro de todas as out
+Você pode continuar adicionando cada novo kata no fi
+## Katas ras funções.  nal da página.
+
 
 
 **Nesse katas nós não vamos utilizar métodos de iteração de array (forEach, map, filter, reduce, sort...) e nem (math min, math max), vamos utilizar apenas estruturas de repetição como (while, for ou do while).**
@@ -27,13 +27,13 @@ Antes de começar a desenvolver suas funções de resolução dos Katas, crie a 
 2.  Exibir os números de 25 a 1: _(25, 24, 23, …, 2, 1)_
 3.  Exibir os números de -1 a -25: _(-1, -2, -3, …, -24, -25)_
 4.  Exibir os números de -25 a -1: _(-25, -24, -23, …, -2, -1)_
-5.  Exibir os números ímpares de 25 a -25: _(25, 23, 21, …, -23, -25)_
+5.  Exibir os números ímpares de 25 a -25: _(25, 23, 21, …, -23, -25)_ -->
 6.  Exibir os números divisíveis por 3 até o 100: _(3, 6, 9, …, 96, 99)_
 7.  Exibir os números divisíveis por 7 até o 100: _(7, 14, 21, …, 91, 98)_
 8.  Exibir os números divisíveis por 3 e os números divisíveis por 7 regressivamente a partir do 100: _(99, 98, 96, 93, 91, …, 14, 12, 9, 7, 6, 3)_
 9.  Exibir os números ímpares divisíveis por 5 até o 100: _(5, 15, 25, …, 85, 95)_
 10. Exibir os 20 elementos de sampleArray. _(469, 755, 244, …, 940, 472)_
-11. Exibir todos os números pares contidos em sampleArray. _(244, 758, 450, …, 940, 472)_
+11. Exibir todos os números pares contidos em sampleArray. _(244, 758, 450, …, 940, 472)_ -->
 12. Exibir todos os números ímpares contidos em sampleArray. _(469, 755, 245, …, 179, 535)_
 13. Exibir os números divisíveis por 8 em sampleArray: _(712, 456, …, 472)_
 14. Exibir o quadrado de cada elemento de sampleArray. _(219961, 570025, …, 222784)_
